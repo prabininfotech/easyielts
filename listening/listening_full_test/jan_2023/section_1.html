@@ -1,1 +1,69 @@
-Section 1 Content
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+
+        body {
+            margin: 0%;
+            padding: 15px;
+            background-color: white;
+        }
+
+        header {
+            color: rgba(107, 67, 155, 1);
+            background-color: rgba(107, 67, 155, 0.1);
+            padding-left: 5px;
+            padding-right: 5px;
+            padding-top: 0.1px;
+            padding-bottom: 0.1px;
+            border-radius: 10px;
+            font-size: 15px;
+            line-height: 20px;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        audioContainer {
+            background-color: gold;
+        }
+
+        .center-div {
+            border: 2px solid;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+            padding: 10px;
+        }
+
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <p>The Listening module takes 40 minutes: 30 min for testing and 10 min for transferring your answers to the answer sheet.</p>
+    </header>
+
+    <audioContainer>
+        <audio controls autoplay muted>
+            <source src="horse.ogg" type="audio/ogg">
+            <source src="horse.mp3" type="audio/mpeg">
+          Your browser does not support the audio element.
+          </audio>
+    </audioContainer>
+    
+
+    <div class="center-div">
+        <p>oops!</p>
+        <p>No internet connection</p>
+
+    </div>
+
+
+
+</body>
+
+</html>
